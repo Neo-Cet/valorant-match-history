@@ -20,7 +20,7 @@ You can follow along with the **VIDEO TUTORIAL** [here](https://youtu.be/56D9lH0
 2. Clone the code/repo (download the zip, utilize `git clone`, or any other method)
 3. In the root directory (the valorant-match-history folder), run `python3 -m pip install -r requirements.txt`
 4. Run `python3 ./wsgi.py`
-5. If no errors occur, visit the site `http://127.0.0.1:5000/` in your browser of choice. Only the computer you ran step 4 on will have access to this site.
+5. If no errors occur, visit the site [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser of choice. Only the computer you ran step 4 on will have access to this site.
 
 ### Docker Installation
 1. Clone the code/repo (download the zip, utilize `git clone`, or any other method)
@@ -30,7 +30,7 @@ You can follow along with the **VIDEO TUTORIAL** [here](https://youtu.be/56D9lH0
 ![image](https://user-images.githubusercontent.com/43360378/103196926-ada76100-48aa-11eb-97bc-ca475d9c7696.png)
 
 4. Run `docker run -p 5000:5000 <YOUR_IMAGE_ID>`. In the example, the commmand would be `docker run -p 5000:5000 fbce9febcaa8`.
-5. Visit `http://0.0.0.0:5000/` in your web browser from the same device that ran step 4.
+5. Visit [http://0.0.0.0:5000/](http://0.0.0.0:5000/) in your web browser from the same device that ran step 4.
 
 
 ## Notes
